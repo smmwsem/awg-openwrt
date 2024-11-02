@@ -12,11 +12,11 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.5"
+          - tag: "21.02"
             pkgarch: aarch64_cortex-a53
             target: mediatek
-            subtarget: filogic
-            vermagic: "5f888a243508bd63116c3c6987914d47"
+            subtarget: mt7981
+            vermagic: "86cd10224392f0f1f47de97edd009387"
 
     steps:
       - uses: actions/checkout@v4
